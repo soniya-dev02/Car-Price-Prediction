@@ -1,14 +1,14 @@
-# Car Price Prediction
+## Car Price Prediction
 
 A machine learning-based web application that predicts the estimated price of a used car based on its specifications.
 
-## Project Overview
+### Project Overview
 
 This project uses a Linear Regression model to predict used car prices. The trained machine learning model is integrated with a Flask web application, allowing users to enter car details and receive an estimated price.
 
 The application also uses MySQL for database management and user authentication.
 
-## Technologies Used
+### Technologies Used
 
 - Python
 - Flask
@@ -21,7 +21,7 @@ The application also uses MySQL for database management and user authentication.
 - HTML
 - CSS
 
-## Features
+### Features
 
 - Used car price prediction
 - Linear Regression machine learning model
@@ -37,7 +37,7 @@ The application also uses MySQL for database management and user authentication.
 - Fuel type selection
 - Estimated price prediction
 
-## Machine Learning
+### Machine Learning
 
 The project uses a Linear Regression model to estimate used car prices based on vehicle specifications.
 
@@ -59,7 +59,7 @@ The project uses a Linear Regression model to estimate used car prices based on 
 - Model evaluation
 - Price prediction
 
-## Web Application
+### Web Application
 
 The Flask application provides the following pages:
 
@@ -73,7 +73,7 @@ The Flask application provides the following pages:
 
 Users can enter vehicle details and receive an estimated car price.
 
-## Project Structure
+### Project Structure
 
 ```text
 Car-Price-Prediction/
