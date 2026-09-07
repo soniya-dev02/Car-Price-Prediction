@@ -2,53 +2,78 @@
 
 A machine learning-based web application that predicts the estimated price of a used car based on its specifications.
 
-# Project Overview
+## Project Overview
 
-This project uses machine learning regression techniques to predict used car prices. The trained model is integrated with a Flask web application, allowing users to enter car details and receive an estimated price.
+This project uses a Linear Regression model to predict used car prices. The trained machine learning model is integrated with a Flask web application, allowing users to enter car details and receive an estimated price.
 
-The application also uses MySQL for database management.
+The application also uses MySQL for database management and user authentication.
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - Flask
 - Pandas
 - NumPy
 - Scikit-learn
+- Joblib
 - MySQL
 - MySQL Connector
-- Joblib
 - HTML
 - CSS
 
-# Features
+## Features
 
 - Used car price prediction
-- Machine learning regression model
+- Linear Regression machine learning model
 - Flask-based web application
 - MySQL database integration
 - User registration and login
 - Car make selection
 - Car model selection
-- Year and engine size input
+- Year input
+- Engine size input
 - Transmission selection
 - Mileage input
 - Fuel type selection
 - Estimated price prediction
 
-# Machine Learning
+## Machine Learning
 
-The project uses a regression-based machine learning model to estimate used car prices from vehicle specifications.
+The project uses a Linear Regression model to estimate used car prices based on vehicle specifications.
 
-The workflow includes:
+### Input Features
+
+- Year
+- Engine Size
+- Mileage
+- Transmission
+- Car Make
+- Car Model
+- Fuel Type
+
+### Machine Learning Workflow
 
 - Data preprocessing
-- Feature preparation
+- Feature encoding
 - Model training
 - Model evaluation
 - Price prediction
 
-# Project Structure
+## Web Application
+
+The Flask application provides the following pages:
+
+- Home
+- About
+- Services
+- Contact
+- Prediction
+- Registration
+- Login
+
+Users can enter vehicle details and receive an estimated car price.
+
+## Project Structure
 
 ```text
 Car-Price-Prediction/
